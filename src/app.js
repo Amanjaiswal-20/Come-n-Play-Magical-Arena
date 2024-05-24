@@ -19,7 +19,7 @@ try {
 let winner = -1;
 
 /* can simulate any fight here.
-   open data.json to view the data of all players. */
+   open data.json to view the sample data of all players. */
 winner = arena.fight(0, 1);
 
 if (winner != -1) {
