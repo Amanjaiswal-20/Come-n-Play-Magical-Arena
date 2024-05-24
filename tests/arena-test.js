@@ -40,7 +40,7 @@ test("fight() should not return -1 in a valid match",
 	}
 );
 
-test("fight() should return -1 when validateFight() throws error", () => {
+test("fight() should return -1 when validateFight() throws any error", () => {
 	let arena = new Arena(players);
 	assert.equal(arena.fight(1, 2), -1);
 });
