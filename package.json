@@ -1,0 +1,12 @@
+{
+  "name": "magical_arena",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js", 
+    "test": "node tests/test.js ./player-test.js ./arena-test.js"
+  },
+  "author": "Debanga Sarma",
+  "license": "ISC",
+  "description": ""
+}
